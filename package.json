@@ -1,7 +1,6 @@
 {
   "name": "sduworkshop",
   "version": "0.0.1",
-  "author": "SDU Team",
   "description": "nodejs with mongodb",
   "scripts": {
     "start": "nodemon app.js"
