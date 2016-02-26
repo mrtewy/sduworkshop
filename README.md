@@ -14,4 +14,4 @@
 
 # How to run
 - npm run start
-- - | run nodemon with server.js
+* run nodemon with server.js
