@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="sduApp">
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Welcome AngularJS</h1>
+<div ng-controller="HomeCtrl">
+Welcome Khun {{ name }}
+<h2>What is my subject</h2>
+<ul ng-repeat="course in allcourse">
+	<li>Course Name : {{ course.name }}</li>
+</ul>
+</div>
+<script type="text/javascript" src="/libs/angular/angular.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
