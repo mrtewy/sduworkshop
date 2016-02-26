@@ -13,7 +13,7 @@
     "mongoose": "^4.4.1",
     "nodemon": "^1.8.1"
   },
-  "main": "app.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
