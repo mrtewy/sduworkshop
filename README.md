@@ -1,7 +1,7 @@
 ## MEAN Stack Development Starter Kit
 
 # Dependencies
-- Nodemon | Automatic restarter node server
-- Express | Web framwork
-- BodyParser | Ability to catch data from client
+- Nodemon | Monitor for any changes in your node.js application and automatically restart the server
+- Express | Minimalist web framework for node
+- BodyParser | Body parsing middleware
 - Mongoose | MongoDB Driver
