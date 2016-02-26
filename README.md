@@ -1,7 +1,5 @@
 ## MEAN Stack Development Starter Kit
 
-_we
-
 # Dependencies (API Server-side)
 - Nodemon | Monitor for any changes in your node.js application and automatically restart the server
 - Express | Minimalist web framework for node
@@ -16,3 +14,7 @@ _we
 
 # How to run
 - npm run start
+
+
+
+**Hello, this is on going development MEAN Stack starter kit for software development team at SDU. This node application provided just for study cases.**
