@@ -21,7 +21,6 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse applica
 // Middleware
 app.use(cors());
 
-
 // ROUTER
 router.get("/", function(req, res){
 	res.send("Welcome API SDU");
