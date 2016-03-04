@@ -11,13 +11,3 @@ db.once('open', function() {
 });
 
 module.exports = db;
-
-// var data = {
-// 	name:'PHP'
-// }
-
-// var insertCourse = new course(data);
-
-// insertCourse.save(function(err,res){
-// 	return true;
-// });

@@ -2,6 +2,7 @@ var express  		= require('express');
 var app 			= express();
 var mongoose 		= require('mongoose');
 var bodyParser  	= require('body-parser');
+var cors 			= require('cors');
 var db 				= require('./model/db.js');
 var Course 		  	= require('./model/Courses.js');
 var router 			= express.Router();
@@ -17,6 +18,11 @@ app.use(bodyParser.urlencoded({'extended':'true'}));            // parse applica
 app.use(bodyParser.json());                                     // parse application/json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
 
+// Middleware
+app.use(cors());
+
+
+// ROUTER
 router.get("/", function(req, res){
 	res.send("Welcome API SDU");
 });
